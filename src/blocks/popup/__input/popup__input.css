@@ -1,0 +1,25 @@
+.popup__input {
+  all: unset;
+  margin: 0;
+  font-family: inherit;
+  /* Теперь поле ввода наследует шрифт от родителя */
+  outline: none;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* .popup__input:first-child {
+  margin-bottom: 30px;
+} */
+
+
+@media screen and (max-width: 644px) {
+  .popup__input {
+    max-width: 238px;
+  }
+}

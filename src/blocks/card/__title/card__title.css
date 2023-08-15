@@ -1,0 +1,7 @@
+.card__title {
+    margin: 0;
+    padding: 25px 21px 31px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
