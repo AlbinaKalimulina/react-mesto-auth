@@ -7,8 +7,7 @@ export default function PopupWithForm({ name, title, titleButton, children, isOp
         <h2 className="popup__title">{title}</h2>
         <form
           className="popup__container popup__edit-container"
-          name="profile"
-          noValidate
+          name={name}
           onSubmit={onSubmit}
         >
           {children}
