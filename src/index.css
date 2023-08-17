@@ -51,3 +51,22 @@
 @import url(./blocks/profile/__avatar-button/profile__avatar-button.css);
 @import url(./blocks/card/__likes-counter/card__likes-counter.css);
 @import url(./blocks/card/__like-group/card__like-group.css);
+
+@import url(./blocks/auth/auth.css);
+@import url(./blocks/auth/__fieldset/auth__fieldset.css);
+@import url(./blocks/auth/__form/auth__form.css);
+@import url(./blocks/auth/__input/auth__input.css);
+@import url(./blocks/auth/__link/auth__link.css);
+@import url(./blocks/auth/__submit/auth__submit.css);
+@import url(./blocks/auth/__title/auth__title.css);
+
+@import url(./blocks/header/__links/header__links.css);
+@import url(./blocks/header/__email/header__email.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__button/header__button.css);
+
+@import url(./blocks/popup/__sign/_type_fail/popup__sign_type_fail.css);
+@import url(./blocks/popup/__sign/_type_success/popup__sign_type_success.css);
+@import url(./blocks/popup/__sign/popup__sign.css);
+
+@import url(./blocks/popup/__heading/popup__heading.css);
